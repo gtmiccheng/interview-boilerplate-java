@@ -1,0 +1,21 @@
+{
+  "name": "Interview Boilerplate Java",
+  "image": "mcr.microsoft.com/devcontainers/java:21",
+  "forwardPorts": [],
+  "features": {
+    "ghcr.io/bdsoha/devcontainers/custom-root-ca:1": {
+      "name": "Cloudflare_CA",
+      "source": "https://seed-general-public-files.s3.ap-southeast-1.amazonaws.com/seed-cloudflare-root-certs/Cloudflare_CA.pem"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "MS-vsliveshare.vsliveshare",
+        "humao.rest-client",
+        "oderwat.indent-rainbow",
+        "vscjava.vscode-java-pack"
+      ]
+    }
+  }
+}
